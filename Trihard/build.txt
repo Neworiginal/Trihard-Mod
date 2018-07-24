@@ -1,0 +1,9 @@
+author = Neworiginal
+version = 0.1.4
+displayName = Trihard
+hideCode = true
+hideResources = true
+includeSource = false
+includePDB = true
+homepage = http://snook.gq/
+
