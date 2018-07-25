@@ -70,6 +70,7 @@
     <Compile Include="Weapon\StaffProjectile.cs" />
     <Compile Include="Weapon\TerroistRPG.cs" />
     <Compile Include="Weapon\TriBullet.cs" />
+    <Compile Include="Weapon\Triburst.cs" />
     <Compile Include="Weapon\Trinamite.cs" />
     <Compile Include="Weapon\TrinamiteProjectile.cs" />
   </ItemGroup>

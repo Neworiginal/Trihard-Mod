@@ -50,19 +50,19 @@ namespace Trihard.Weapon   //this is where is this file
         }
 
         public override void AddRecipes()
-        {                                        //this is how to craft this item
+        {                                        
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.LunarBar, 300);
             recipe.AddIngredient(ModLoader.GetMod("CalamityMod").ItemType("BloodstoneCore"), 100);
             recipe.AddIngredient(ModLoader.GetMod("CalamityMod").ItemType("Phantoplasm"), 100);
             recipe.AddIngredient(ModLoader.GetMod("CalamityMod").ItemType("BloodOrb"), 75);
-            recipe.AddIngredient(ModLoader.GetMod("CalamityMod").ItemType("Seadragon"));//this is how to add an ingredient from Terraria,  so for craftin this item u need 1 Dirt Block
-            recipe.AddTile(TileID.Anvils);   //this is where to craft the item ,    Anvils = all anvils , MythrilAnvil = Mythril Anvil and Orichalcum Anvil, Furnaces = all furnaces , DemonAltar = Demon Altar and Crimson Altar , TinkerersWorkbench = Tinkerer's Workbench
-            recipe.SetResult(this);  //there you can set the output and the quantity of the item crafting
+            recipe.AddIngredient(ModLoader.GetMod("CalamityMod").ItemType("Seadragon"));
+            recipe.AddTile(TileID.Anvils);   
+            recipe.SetResult(this);  
             recipe.AddRecipe();
         }
         public override Vector2? HoldoutOffset()
-        {                                     //this make the player hold the weapon like a cannon/rocket launcher
+        {                                     
             return Vector2.Zero;
         }
     }
