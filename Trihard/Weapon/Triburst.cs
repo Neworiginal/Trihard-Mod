@@ -16,7 +16,7 @@ namespace Trihard.Weapon
         public override void SetDefaults()
         {
             item.reuseDelay = 14;
-            item.damage = 750;
+            item.damage = 3500;
             item.ranged = true;
             item.width = 40;
             item.height = 20;
