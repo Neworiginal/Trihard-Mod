@@ -68,7 +68,7 @@
     <Compile Include="Weapon\ShitBlaster.cs" />
     <Compile Include="Weapon\Staff.cs" />
     <Compile Include="Weapon\StaffProjectile.cs" />
-    <Compile Include="Weapon\TerroistRPG.cs" />
+    <Compile Include="Weapon\TerroristRPG.cs" />
     <Compile Include="Weapon\TriBullet.cs" />
     <Compile Include="Weapon\Triburst.cs" />
     <Compile Include="Weapon\Trinamite.cs" />
