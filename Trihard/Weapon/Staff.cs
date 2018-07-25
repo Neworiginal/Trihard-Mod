@@ -16,7 +16,7 @@ namespace Trihard.Weapon
         }
         public override void SetDefaults()
         {
-            item.damage = 650;
+            item.damage = 1000;
             item.magic = true;                     //this make the item do magic damage
             item.width = 24;
             item.height = 28;

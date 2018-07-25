@@ -13,7 +13,7 @@ namespace Trihard.Tyrone
 
         public override bool Autoload(ref string name)
         {
-            name = "Tyrone";
+            name = "Chad";
             return mod.Properties.Autoload;
         }
 
@@ -35,8 +35,8 @@ namespace Trihard.Tyrone
         {
             npc.townNPC = true;
             npc.friendly = true;
-            npc.width = 18;
-            npc.height = 40;
+            npc.width = 20;
+            npc.height = 28;
             npc.aiStyle = 7;
             npc.damage = 10;
             npc.defense = 100;
@@ -101,13 +101,13 @@ namespace Trihard.Tyrone
             switch (WorldGen.genRand.Next(4))
             {
                 case 0:
-                    return "Tyrone";
+                    return "Chad";
                 case 1:
-                    return "Chicken";
+                    return "Chad";
                 case 2:
-                    return "Blackie";
+                    return "Chad";
                 default:
-                    return "Tyrone";
+                    return "Chad";
             }
         }
 
@@ -134,11 +134,11 @@ namespace Trihard.Tyrone
             switch (Main.rand.Next(3))
             {
                 case 0:
-                    return "Everything in my shop was stolen.";
+                    return "My hair has been firmly fastened to never react to wind or any laws of physics";
                 case 1:
-                    return "I'm a filthy nigger.";
+                    return "My head is at a perfect vertical angle at all times";
                 default:
-                    return "I drive a B L A C K dodge charger, nigger.";
+                    return "I've never heard a song in my whole life";
             }
         }
 
