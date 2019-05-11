@@ -4,9 +4,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Trihard.Weapon    //this is where is this file
+namespace Trihard.Weapon
 {
-    public class TerroristRPG : ModItem  //this is the class name
+    public class TerroristRPG : ModItem 
     {
 
         public override void SetStaticDefaults()
